@@ -8,6 +8,8 @@ gem 'rails', '3.2.12'
 gem 'sqlite3', '1.3.7', :group => :development
 
 group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3'
+  gem 'pg'
  # gems specifically for Heroku go here gem "pg" end # Install the pg gem's dependencies first $ sudo apt-get install libpq-dev # Then install the pg gem along with all the other gems $ bundle install
  end
 
